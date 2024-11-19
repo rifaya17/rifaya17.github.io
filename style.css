@@ -12,6 +12,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -248,12 +249,6 @@ span{
     21%, 40%{
         content: "Developer";
     }
-    41%, 60%{
-        content: "Web Designer";
-    }
-    81%, 100%{
-        content: "Script Writer";
-    }
 }
 
 @media (max-width: 1000px){
@@ -468,10 +463,12 @@ img {vertical-align: middle;}
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
+  padding-right: 80px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  align-items: center;
   background-color: black;
 }
 
