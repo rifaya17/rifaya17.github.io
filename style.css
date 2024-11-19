@@ -243,12 +243,21 @@ span{
 }
 
 @keyframes words{
-    0%, 20%{
-        content: "Programmer";
-    }
-    21%, 40%{
-        content: "Developer";
-    }
+  0%, 20%{
+      content: "Web Developer";
+  }
+  21%, 40%{
+      content: "Developer";
+  }
+  41%, 60%{
+      content: "Web Designer";
+  }
+  61%, 80%{
+      content: "Programmer";
+  }
+  81%, 100%{
+      content: "Script Writer";
+  }
 }
 
 @media (max-width: 1000px){
