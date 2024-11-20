@@ -131,6 +131,10 @@ span{
     font-size: 1.6rem;
 }
 
+.home-img{
+  border-radius: 50%;
+}
+
 .home-img img{
     position: relative;
     width: 32vw;
